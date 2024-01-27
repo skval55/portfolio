@@ -1,6 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Name from "./Name";
+import Title from "./Title";
+import { Projects } from "./Projects";
 
 function App() {
   return (
@@ -8,7 +10,8 @@ function App() {
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
 
       <Name />
-      <p>I am a software developer</p>
+      <Title />
+      <Projects />
     </div>
   );
 }
